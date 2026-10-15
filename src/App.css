@@ -1,0 +1,272 @@
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+:root {
+  --bg: #0f0f14;
+  --card-bg: #1a1a24;
+  --accent: #b026ff;
+  --accent-soft: #2d1b3d;
+  --text: #f0f0f5;
+  --text-muted: #a0a0b0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: var(--accent);
+  letter-spacing: 1px;
+}
+
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.producto {
+  background: var(--card-bg);
+  border: 1px solid var(--accent-soft);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.producto:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.producto img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+.producto button {
+  margin-top: 0.5rem;
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.producto button:hover {
+  filter: brightness(1.1);
+}
+
+.carrito {
+  background: var(--card-bg);
+  border: 1px solid var(--accent-soft);
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+  max-width: 500px;
+}
+
+.carrito h2 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.carrito-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--accent-soft);
+  color: var(--text-muted);
+}
+
+.carrito-item span:first-child {
+  flex: 1;
+  color: var(--text);
+}
+
+.carrito-item button {
+  background: var(--accent-soft);
+  color: var(--text);
+  border: none;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.carrito-item button:hover {
+  background: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.redes img {
+  width: 28px;
+  height: 28px;
+}
+
+.icono-carrito {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+.icono-carrito {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  filter: brightness(0) invert(1);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 400px;
+  margin: 1.5rem auto;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-soft);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.formulario input,
+.formulario textarea {
+  background: var(--bg);
+  border: 1px solid var(--accent-soft);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-family: inherit;
+}
+
+.formulario button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.preview-imagen {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem;
+  background: var(--card-bg);
+}
+
+.menu a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: var(--accent);
+}
+
+.equipo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.tarjeta-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--accent-soft);
+  border-radius: 10px;
+  padding: 1rem;
+  width: 200px;
+  font-size: 0.85rem;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.formulario button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}

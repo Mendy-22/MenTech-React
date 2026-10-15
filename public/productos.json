@@ -1,0 +1,18 @@
+[
+      {"id": 1, "nombre": "ASUS DOG PHONE 7 ULTIMATE", "precio":2809892, "stock": 20, "imagen":"/imagenes/ASUS DOG PHONE 7 ULTIMATE.png"},
+      {"id": 2 , "nombre": "Asus ROG PHONE 7", "precio":1199999, "stock": 20, "imagen":"/imagenes/asus-rog-phone-7.png"},
+      {"id": 3, "nombre": "ASUS RP6 Hero", "precio":38000, "stock": 15, "imagen": "/imagenes/ASUS-RP6-hero.png"},
+      {"id": 4 , "nombre": "Samsung Galaxy S24 Ultra 1TB 12GB", "stock":15, "precio":2800000, "imagen":"/imagenes/celular-samsung-galaxy-s24-ultra-1tb-12gb-ram-5g-s928b.png"},
+      {"id": 5, "nombre": "Motorola Edge 30 Pro", "precio":380000, "stock":10 , "imagen": "/imagenes/Motorola-Edge-30-Pro.png"},
+      {"id": 6 , "nombre": "Motorola Moto G100", "precio":83500, "stock":10, "imagen":"/imagenes/Motorola-Moto-G100.png"},
+      {"id": 7, "nombre": "Motorola Edge 40 NEO", "precio":620000, "stock": 20, "imagen": "/imagenes/MotorolaEDGE40NEO.png"},
+      {"id": 8 , "nombre": "Nubia Red Magic 7", "precio":1500000, "stock":6 ,"imagen":"/imagenes/nubia_red_magic_7_black_1_.png"},
+      {"id": 9, "nombre": "Nubia Red Magic 8 Pro", "precio":2500000, "stock":5, "imagen": "/imagenes/Nubia-Red-Magic8Pro.png"},
+      {"id": 10 , "nombre": "Nubia Red Magic 8 S PRO", "precio":3440000, "stock": 7, "imagen":"/imagenes/NubiaRedMagic8SPro.png"},
+      {"id": 11, "nombre": "Samsung A54 5G", "precio":1000000, "stock": 13, "imagen": "/imagenes/SamsungA54-5G.png"},
+      {"id": 12, "nombre": "Samsung S21 5G", "precio":1300000, "stock":16 , "imagen": "/imagenes/SamsungS21+5G.png"},
+      {"id": 13 , "nombre": "Xiaomi POCO F5", "precio":1000000, "stock": 19, "imagen":"/imagenes/XiaomiPOCO-F5.png"},
+      {"id": 14, "nombre": "Xiaomi POCO X5PRO", "precio":1233000, "stock":11, "imagen":"/imagenes/XiaomiPocoX5PRO.png"},
+      {"id": 15 , "nombre": "Xiaomi Redmi K60", "precio":2399000, "stock":10 , "imagen":"/imagenes/XiaomiRedmiK60.png"},
+      {"id": 16, "nombre": "Xiaomi Redmi Note 13", "precio":800000, "stock": 12,"imagen": "/imagenes/XiaomiRedmiNote13.png"}
+]
