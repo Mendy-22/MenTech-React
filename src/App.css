@@ -270,3 +270,9 @@ footer {
   opacity: 0.6;
   cursor: wait;
 }
+
+.formulario h2 {
+  color: var(--accent);
+  text-align: center;
+  margin-top: 0;
+}
